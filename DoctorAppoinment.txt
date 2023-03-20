@@ -1,0 +1,17 @@
+ create table doctor (id int not null,
+    -> Name varchar(30),
+    -> Specialization varchar(20),
+    -> Area varchar(20),
+    -> Cost double);
+
+insert into doctor values(101,'Monica','General Physician','BanjaraHills',1000);
+insert into doctor values(102,'RossGeller','General Physician','Kukatpalli',800);
+insert into doctor values(103,'Chandler','General Physician','LBNagar',500);
+
+insert into doctor values(201,'Racheal','Cardiologist','BanjaraHills',1500);
+insert into doctor values(202,'Joey','Cardiologist','Kukatpalli',1200);
+insert into doctor values(203,'Phoebe','Cardiologist','LBNagar',1000);
+
+insert into doctor values(301,'Emma','Dental','BanjaraHills',1000);
+insert into doctor values(302,'Guntur','Dental','Kukatpalli',900);
+insert into doctor values(303,'Richard','Dental','LBNagar',750);
